@@ -8,12 +8,14 @@
 	}
 
 	.left-grid {
-		@include background-style("../images/about-book.jpg", center center, cover, no-repeat, local);
 		width: calc(50% - 160px);
 		height: 100%;
 		float: left;
 		position: absolute;
 		left: 0;
+		background-color: #0b8edb;
+		align-items: center;
+		display: flex;
 
 		@include media-query(767px) {
 			width: 100%;

@@ -14,9 +14,11 @@
 }
 
 .header-style-1 .sticky-header {
-	background: rgba(0, 158, 219, 0.12);
-	box-shadow: 0 1px 10px transparentize($black, 0.9);
+	background: rgb(3 169 244 / 70%);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 }
+
 
 .header-style-2 .sticky-header {
 	@include widther(992px) {

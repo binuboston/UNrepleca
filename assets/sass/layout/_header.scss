@@ -34,7 +34,7 @@
 				font-size: 15px;
 				font-size: calc-rem-value(15);
 				font-weight: 600;
-				color: #9aa1ac;
+				color: $white;
 				padding: 15px 5px;
 			}
 
@@ -401,7 +401,7 @@
 	    z-index: 100;
 
 	    #navbar {
-			margin-left: 60px;
+			margin-left: 230px;
 		}
 
 		#navbar > ul > li + li {

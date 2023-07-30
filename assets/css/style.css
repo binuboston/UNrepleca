@@ -1195,7 +1195,7 @@ img {
     font-size: 15px;
     font-size: 1rem;
     font-weight: 600;
-    color: #9aa1ac;
+    color: #fff;
     padding: 15px 5px;
   }
   .site-header #navbar > ul .sub-menu {
@@ -1519,7 +1519,7 @@ img {
     z-index: 100;
   }
   .header-style-1 #navbar, .header-style-4 #navbar, .header-style-3 #navbar, .header-style-2 #navbar {
-    margin-left: 60px;
+    margin-left: 230px;
   }
   .header-style-1 #navbar > ul > li + li, .header-style-4 #navbar > ul > li + li, .header-style-3 #navbar > ul > li + li, .header-style-2 #navbar > ul > li + li {
     margin-left: 37px;
@@ -1720,16 +1720,6 @@ img {
   position: relative;
   height: 100vh;
   overflow: hidden;
-}
-.hero-section:before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.68);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
@@ -2714,8 +2704,9 @@ img {
 }
 
 .header-style-1 .sticky-header, .header-style-2 .sticky-header, .header-style-3 .sticky-header, .header-style-4 .sticky-header {
-  background: rgba(0, 158, 219, 0.12);
+  background: rgba(3, 169, 244, 0.7);
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
 }
 
 @media screen and (min-width: 992px) {
@@ -2736,12 +2727,14 @@ img {
   position: relative;
 }
 .about-section .left-grid, .about-section-s4 .left-grid, .about-section-s3 .left-grid {
-  background: url("../images/about-book.jpg") center center/cover no-repeat local;
   width: calc(50% - 160px);
   height: 100%;
   float: left;
   position: absolute;
   left: 0;
+  background-color: #0b8edb;
+  align-items: center;
+  display: flex;
 }
 @media (max-width: 767px) {
   .about-section .left-grid, .about-section-s4 .left-grid, .about-section-s3 .left-grid {
@@ -2813,7 +2806,9 @@ img {
   .about-section .about-pic, .about-section-s4 .about-pic, .about-section-s3 .about-pic {
     display: none;
   }
-} /*--------------------------------------------------------------
+}
+
+/*--------------------------------------------------------------
 #0.7	services-section
 --------------------------------------------------------------*/
 .services-section {
