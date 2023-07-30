@@ -1718,13 +1718,7 @@ img {
 ****************************/
 .hero-section {
   position: relative;
-  height: 100vh;
   overflow: hidden;
-}
-@media screen and (min-width: 1200px) {
-  .hero-section {
-    min-height: 800px;
-  }
 }
 @media (max-width: 1199px) {
   .hero-section {
@@ -1811,14 +1805,11 @@ img {
   }
 }
 .hero-section .content p {
-  background: url("../images/hero-1-para-bg.jpg") 35px 15px/auto no-repeat local;
-  font-size: 18px;
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.67em;
-  color: #90949a;
+  color: #ffffff;
   margin: 0 0 4.4em;
-  padding-left: 100px;
 }
 @media (max-width: 1199px) {
   .hero-section .content p {

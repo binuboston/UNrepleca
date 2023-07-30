@@ -135,12 +135,11 @@
 ****************************/
 .hero-section {
 	position: relative;
-	height: 100vh;
 	overflow: hidden;
 
 
 	@include widther(1200px) {
-		min-height: 800px;
+		
 	}
 
 	@include media-query(1199px) {
@@ -223,14 +222,11 @@
 	}
 
 	.content p {
-		@include background-style("../images/hero-1-para-bg.jpg", 35px 15px, auto, no-repeat, local);
-		font-size: 18px;
-		font-size: calc-rem-value(18);
-		font-weight: 500;
-		line-height: 1.67em;
-		color: $mid-gray;
-		margin: 0 0 4.4em;
-		padding-left: 100px;
+		font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.67em;
+    color: #ffffff;
+    margin: 0 0 4.4em;
 
 		@include media-query(1199px) {
 			margin: 0 0 3.4em;
