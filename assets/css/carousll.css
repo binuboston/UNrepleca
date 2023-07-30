@@ -22,7 +22,9 @@
 .carousel-inner>.item>img{
     width: 100%;
 }
-  
+.carousel-control{
+    z-index: 99;
+}
   
   /* .slide{ 
     margin-top: 30px;

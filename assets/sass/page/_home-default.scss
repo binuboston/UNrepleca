@@ -837,7 +837,7 @@
 --------------------------------------------------------------*/
 .news-letter-section {
 	position: relative;
-	@include background-style("../images/news-letter-bg.jpg", center center, cover, no-repeat, fixed);
+	@include background-style("../images/hero-1.jpg", center center, cover, no-repeat, fixed);
 	padding: 95px 0;
 
 	@include media-query(991px) {
@@ -850,7 +850,7 @@
 
 	&:before {
 		content: "";
-		@include overlay(transparentize($theme-color2, 0.1));
+		@include overlay(transparentize($theme-color, 0.5));
 	}
 
 	.newsletter-text {
