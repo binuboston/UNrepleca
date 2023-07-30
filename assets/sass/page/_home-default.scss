@@ -97,6 +97,7 @@
 --------------------------------------------------------------*/
 .services-section {
 	padding-bottom: 110px;
+	background: linear-gradient(360deg, rgba(0, 158, 219, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%);
 
 	@include media-query(991px) {
 		padding-bottom: 50px;
@@ -576,7 +577,7 @@
 #1.0	team-section
 --------------------------------------------------------------*/
 .team-section {
-	@include pattern-background($theme-color2, "../images/team/team-bg.png", center center, cover, no-repeat, local);
+	@include pattern-background($theme-color, "../images/team/team-bg.png", center center, cover, no-repeat, local);
 
 	padding-bottom: 113px;
 

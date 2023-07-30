@@ -2465,7 +2465,7 @@ img {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: #2d3239;
+  background: #042A2B;
   /*** about widget ***/
   /*** contact widget ***/
   /*** quick-links-widget ***/
@@ -2805,6 +2805,7 @@ img {
 --------------------------------------------------------------*/
 .services-section {
   padding-bottom: 110px;
+  background: linear-gradient(360deg, rgba(0, 158, 219, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
   /*** skills progress bar ***/
   /*** .services-detail-text ***/
   /*** service-features-grids ***/
@@ -3291,7 +3292,7 @@ img {
 #1.0	team-section
 --------------------------------------------------------------*/
 .team-section {
-  background: #41516a url("../images/team/team-bg.png") center center/cover no-repeat local;
+  background: #009EDB url("../images/team/team-bg.png") center center/cover no-repeat local;
   padding-bottom: 113px;
 }
 @media (max-width: 991px) {
