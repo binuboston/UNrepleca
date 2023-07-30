@@ -413,10 +413,12 @@
 		#navbar > ul > li + li {
 			margin-left: 57px;
 		}
+		
 	}
 
 	@include media-query(991px) {
-		border-bottom: 1px solid #f1f1f1;
+		border-bottom: 1px solid #042a2b;
+    	background: #042a2b;
 	}
 
 	.navigation {
@@ -424,6 +426,7 @@
 
 		@include media-query(991px) {
 			min-height: 88px;
+			
 		}
 	}
 
@@ -436,6 +439,7 @@
 		#navbar > ul > li {
 			padding: 19px 0;
 		}
+		
 	}
 
 	.navbar-header button {

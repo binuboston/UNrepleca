@@ -1532,7 +1532,8 @@ img {
 }
 @media (max-width: 991px) {
   .header-style-1, .header-style-4, .header-style-3, .header-style-2 {
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #042a2b;
+    background: #042a2b;
   }
 }
 .header-style-1 .navigation, .header-style-4 .navigation, .header-style-3 .navigation, .header-style-2 .navigation {
