@@ -144,6 +144,7 @@
 
 	@include media-query(1199px) {
 		min-height: 600px;
+		background: #042a2b;
 	}
 
 	@include media-query(991px) {

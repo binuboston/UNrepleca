@@ -1723,6 +1723,7 @@ img {
 @media (max-width: 1199px) {
   .hero-section {
     min-height: 600px;
+    background: #042a2b;
   }
 }
 @media (max-width: 991px) {
