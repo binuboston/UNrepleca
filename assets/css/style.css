@@ -594,16 +594,16 @@ img {
 
 .theme-btn, .theme-btn-s3 {
   font-family: "Poppins", sans-serif;
-  background-color: #009EDB;
+  background-color: transparent;
   font-size: 16px;
   font-size: 1.0666666667rem;
   font-weight: bold;
   color: #fff;
   padding: 12px 40px;
-  border-radius: 50px;
+  border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
-  box-shadow: 0 9px 10px rgba(0, 158, 219, 0.3);
+  border: 1px solid;
 }
 @media (max-width: 1199px) {
   .theme-btn, .theme-btn-s3 {
@@ -1182,7 +1182,7 @@ img {
 .site-header #navbar > ul li a:hover,
 .site-header #navbar > ul li.current-menu-item a {
   text-decoration: none;
-  color: #41516a;
+  color: #009EDB;
 }
 @media screen and (min-width: 992px) {
   .site-header #navbar {
