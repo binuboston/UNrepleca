@@ -599,7 +599,7 @@ img {
   font-size: 1.0666666667rem;
   font-weight: bold;
   color: #fff;
-  padding: 12px 40px;
+  padding: 8px 24px;
   border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
@@ -621,6 +621,7 @@ img {
 }
 .theme-btn:hover, .theme-btn-s3:hover {
   color: #fff;
+  background-color: #fff;
 }
 
 .theme-btn-s2 {
