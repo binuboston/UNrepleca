@@ -1771,9 +1771,14 @@ img {
   font-size: 4rem;
   line-height: 1em;
   color: #fff;
-  margin: 0 0 0.5em;
+  padding-right: 45px;
+  margin: 0 0 0.83em;
   position: relative;
   display: inline-block;
+  line-height: normal;
+  border-left: 1px solid;
+  padding-left: 20px;
+  text-align: left;
 }
 @media screen and (min-width: 1800px) {
   .hero-section .content h2 {
@@ -1810,7 +1815,6 @@ img {
   font-weight: 500;
   line-height: 1.67em;
   color: #ffffff;
-  margin: 0 0 4.4em;
 }
 @media (max-width: 1199px) {
   .hero-section .content p {
@@ -2465,7 +2469,7 @@ img {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: #042A2B;
+  background: #029edb;
   /*** about widget ***/
   /*** contact widget ***/
   /*** quick-links-widget ***/

@@ -195,6 +195,10 @@
 		margin: 0 0 0.83em;
 		position: relative;
 		display: inline-block;
+		line-height: normal;
+		border-left: 1px solid;
+		padding-left: 20px;
+		text-align: left;
 
 		@include widther(1800px) {
 			margin: -150px 0 0.83em;
@@ -227,7 +231,6 @@
     font-weight: 500;
     line-height: 1.67em;
     color: #ffffff;
-    margin: 0 0 4.4em;
 
 		@include media-query(1199px) {
 			margin: 0 0 3.4em;
