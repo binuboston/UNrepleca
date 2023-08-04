@@ -1520,7 +1520,7 @@ img {
     z-index: 100;
   }
   .header-style-1 #navbar, .header-style-4 #navbar, .header-style-3 #navbar, .header-style-2 #navbar {
-    margin-left: 230px;
+    margin-left: 180px;
   }
   .header-style-1 #navbar > ul > li + li, .header-style-4 #navbar > ul > li + li, .header-style-3 #navbar > ul > li + li, .header-style-2 #navbar > ul > li + li {
     margin-left: 37px;
