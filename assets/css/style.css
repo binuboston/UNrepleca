@@ -2989,6 +2989,7 @@ img {
 .portfolio-section .portfolio-grids .grid {
   width: 33.33%;
   float: left;
+  padding: 10px;
 }
 @media (max-width: 991px) {
   .portfolio-section .portfolio-grids .grid {

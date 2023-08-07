@@ -271,6 +271,7 @@
 		.grid {
 			width: 33.33%;
 			float: left;
+			padding: 10px;
 
 			@include media-query(991px) {
 				width: 50%;
