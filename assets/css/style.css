@@ -2719,6 +2719,15 @@ img {
 /*--------------------------------------------------------------
 #0.6	about-section
 --------------------------------------------------------------*/
+.inner-page {
+  background-color: #222;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+}
+.inner-page h2 {
+  color: #fff;
+}
+
 .about-section .content, .about-section-s4 .content, .about-section-s3 .content {
   overflow: hidden;
   position: relative;
