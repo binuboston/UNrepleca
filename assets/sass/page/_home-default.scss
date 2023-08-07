@@ -1094,7 +1094,7 @@
 		}
 
 		> div + div {
-			margin-top: 90px;
+			margin-top: 50px;
 
 			@include media-query(991px) {
 				margin-top: 30px;

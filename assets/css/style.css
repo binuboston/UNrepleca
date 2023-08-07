@@ -3824,7 +3824,7 @@ img {
   }
 }
 .contact-section .contact-info > div + div, .contact-section-s2 .contact-info > div + div {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 @media (max-width: 991px) {
   .contact-section .contact-info > div + div, .contact-section-s2 .contact-info > div + div {
