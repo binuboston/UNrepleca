@@ -8,7 +8,7 @@
 	}
 
 	.left-grid {
-		width: calc(50% - 160px);
+		width: calc(70% - 160px);
 		height: 100%;
 		float: left;
 		position: absolute;
@@ -27,7 +27,7 @@
 
 	.right-grid {
 		background-color: $theme-color;
-		width: calc(50% + 160px);
+		width: calc(30% + 160px);
 		padding: 100px 80px;
 		float: right;
 
@@ -245,7 +245,15 @@
 			font-size: calc-rem-value(18);
 			font-weight: 600;
 			color: $heading-color;
-			margin: 0 0 0.94em;
+			margin: auto;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+	background-color: #fff;
 
 			@include media-query(767px) {
 				font-size: 16px;

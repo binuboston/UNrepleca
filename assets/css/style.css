@@ -2724,7 +2724,7 @@ img {
   position: relative;
 }
 .about-section .left-grid, .about-section-s4 .left-grid, .about-section-s3 .left-grid {
-  width: calc(50% - 160px);
+  width: calc(70% - 160px);
   height: 100%;
   float: left;
   position: absolute;
@@ -2743,7 +2743,7 @@ img {
 }
 .about-section .right-grid, .about-section-s4 .right-grid, .about-section-s3 .right-grid {
   background-color: #009EDB;
-  width: calc(50% + 160px);
+  width: calc(30% + 160px);
   padding: 100px 80px;
   float: right;
 }
@@ -2968,7 +2968,15 @@ img {
   font-size: 1.2rem;
   font-weight: 600;
   color: #41516a;
-  margin: 0 0 0.94em;
+  margin: auto;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #fff;
 }
 @media (max-width: 767px) {
   .services-section .service-features-grids h3 {
