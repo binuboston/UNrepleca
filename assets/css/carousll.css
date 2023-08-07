@@ -54,3 +54,15 @@
             margin-right: 10px;
             vertical-align: text-top;
             display: inline-block; }
+            @media (max-width: 767px) {
+            .hero-section .details{
+              top: 0;
+              margin: 10px 0px;
+            }
+            .carousel {
+              position: absolute;
+              bottom: -10px;
+          }
+          
+          
+          }
