@@ -870,7 +870,7 @@
 
 	&:before {
 		content: "";
-		@include overlay(transparentize($theme-color, 0.5));
+		@include overlay(transparentize($theme-color, 0.2));
 	}
 
 	.newsletter-text {
