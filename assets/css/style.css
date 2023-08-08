@@ -2755,7 +2755,7 @@ img {
   }
 }
 .about-section .right-grid, .about-section-s4 .right-grid, .about-section-s3 .right-grid {
-  background-color: #009EDB;
+  background-color: #373737;
   width: calc(30% + 160px);
   padding: 100px 80px;
   float: right;
@@ -2999,6 +2999,8 @@ img {
 }
 .services-section .service-features-grids p {
   margin: 0;
+  color: #000;
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
