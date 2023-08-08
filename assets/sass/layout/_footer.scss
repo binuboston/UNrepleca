@@ -5,7 +5,7 @@
 	background: #029edb;
 
 	.upper-footer {
-		padding: 100px 0;
+		padding: 50px 0;
 
 		@include media-query(991px) {
 			padding: 80px 0 35px;
@@ -17,6 +17,19 @@
 
 		ul {
 			list-style: none;
+			display: flex;
+    align-items: baseline;
+	li{
+		padding-right:30px;
+	}
+	@include media-query(767px) {
+		margin-top: -10px;
+		display: block;
+		li{
+			padding: 0;
+		}
+	}
+
 		}
 
 		ul,
@@ -42,10 +55,16 @@
 		text-transform: uppercase;
 		margin: 0 0 2em;
 		position: relative;
+		img{
+			width: 280px;
+		}
 
 		@include media-query(991px) {
 			font-size: 20px;
 			font-size: cacl-rem-value(20);
+			img{
+				width: auto;
+			}
 		}
 
 		@include media-query(767px) {
