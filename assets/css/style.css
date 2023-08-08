@@ -1549,6 +1549,10 @@ img {
   position: absolute;
   left: 0;
 }
+.header-style-1 .site-logo img, .header-style-4 .site-logo img, .header-style-3 .site-logo img, .header-style-2 .site-logo img {
+  width: 200px;
+  padding: 20px;
+}
 @media screen and (min-width: 992px) {
   .header-style-1 #navbar > ul > li, .header-style-4 #navbar > ul > li, .header-style-3 #navbar > ul > li, .header-style-2 #navbar > ul > li {
     padding: 19px 0;
@@ -3559,6 +3563,10 @@ img {
   .recent-news-section .more-news, .recent-news-section-s2 .more-news {
     margin-top: 15px;
   }
+}
+
+.footer-bg {
+  background: url("../images/david-rodrigo-Fr6zexbmjmc-unsplash.jpg") center center/cover no-repeat fixed !important;
 }
 
 /*--------------------------------------------------------------

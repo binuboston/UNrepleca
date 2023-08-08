@@ -433,6 +433,10 @@
 	.site-logo {
 		position: absolute;
 		left: 0;
+		img{
+			width: 200px;
+			padding: 20px;
+		}
 	}
 
 	@include widther(992px) {
